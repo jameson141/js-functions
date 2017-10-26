@@ -26,7 +26,8 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */
-var Number = "6", Number2 = "3";
+var bango1 = 6; 
+var bango2 = 3;
 
 
 
@@ -44,7 +45,11 @@ var Number = "6", Number2 = "3";
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
-
+function add(bango1, bango2) {
+	return bango1 + bango2;
+}
+var addition = add(bango1,bango2);
+console.log(addition);
 
 
 /*
@@ -60,8 +65,11 @@ var Number = "6", Number2 = "3";
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
-
-
+function subtract(bango1, bango2) {
+	return bango1 - bango2;
+}
+var difference = subtract(bango1,bango2);
+console.log(difference);
 
 /*
  * #4
@@ -76,8 +84,11 @@ var Number = "6", Number2 = "3";
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
-
-
+function multiply(bango1, bango2) {
+	return bango1 * bango2;
+}
+var multiplication = multiply(bango1,bango2);
+console.log(multiplication);
 
 /*
  * #5
@@ -92,8 +103,11 @@ var Number = "6", Number2 = "3";
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
-
-
+function divide(bango1, bango2) {
+	return bango1 / bango2;
+}
+var division = divide(bango1,bango2);
+console.log(division);
 
 /*
  * #6
